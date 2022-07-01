@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { FlatList, ScrollView, StyleSheet, Text, View, SafeAreaView, } from 'react-native';
+import { FlatList, ScrollView, StyleSheet, Text, View, SafeAreaView, ShadowPropTypesIOS, } from 'react-native';
 import { names } from "./names";
 
 //
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     color: 'white',
     margin: 10,
     padding: 10,
-    width: 300,
+    width: 240,
     textAlign: 'center',
     alignSelf: 'center',
     backgroundColor: 'purple'
